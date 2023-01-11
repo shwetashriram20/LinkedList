@@ -17,7 +17,11 @@ namespace LinkedList
             this.head = null;
         }
 
-       
+        /**
+         * Inserting new node at the end of the linked list
+         * 
+         * @param data - represent the node data to be added to the linked list
+         */
         public void insertNode(int data)
         {
             Node node = new Node();
