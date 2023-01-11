@@ -14,7 +14,7 @@
 
 
             Console.WriteLine("Delete node");
-            list.deleteNode();
+            list.deleteFirstNode();
             list.printNodes(); 
 
         }
