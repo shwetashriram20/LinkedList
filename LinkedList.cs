@@ -63,7 +63,7 @@ namespace LinkedList
                 Console.WriteLine("Exceeded the linked list size. Current Size: " + size);
             }
         }
-        public void deleteNode()
+        public void deleteFirstNode()
         {
             if (head != null)
             {
